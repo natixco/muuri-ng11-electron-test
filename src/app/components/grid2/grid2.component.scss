@@ -1,0 +1,11 @@
+.grid {
+  position: relative;
+  width: 100vw;
+  .item {
+    position: absolute;
+    width: calc(25% - 40px);
+    margin: 20px;
+    border: 1px solid black;
+    height: 50px;
+  }
+}
